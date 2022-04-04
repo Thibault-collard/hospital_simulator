@@ -1,0 +1,29 @@
+{
+  "diseases": [
+    {
+      "ltr": "F",
+      "name": "Fever",
+      "dieWithoutDrugs": false
+    },
+    {
+      "ltr": "H",
+      "name": "Healthy",
+      "dieWithoutDrugs": false
+    },
+    {
+      "ltr": "D",
+      "name": "Diabetes",
+      "dieWithoutDrugs": true
+    },
+    {
+      "ltr": "T",
+      "name": "Tuberculosis",
+      "dieWithoutDrugs": false
+    },
+    {
+      "ltr": "X",
+      "name": "Dead",
+      "dieWithoutDrugs": true
+    }
+  ]
+}

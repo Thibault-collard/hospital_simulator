@@ -1,0 +1,23 @@
+{
+  "name": "hospital-be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "build:dev": "rm -rf ./dist && webpack --config ./hospital-lib/config/webpack.config.js --mode development",
+    "build:prod": "rm -rf ./dist && webpack --config ./hospital-lib/config/webpack.config.js --mode production",
+    "test": "npx ts-node --project ./hospital-lib/tsconfig.json ./hospital-lib/config/run-test.ts"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "lodash": "4.17.11",
+    "@types/node": "10.12.0",
+    "alsatian": "2.3.0",
+    "ts-loader": "5.2.2",
+    "ts-node": "^7.0.1",
+    "typescript": "3.8.2",
+    "webpack": "4.22.0",
+    "webpack-cli": "3.1.2"
+  }
+}

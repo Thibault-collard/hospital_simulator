@@ -1,0 +1,45 @@
+{
+    "drugs": [
+      {
+        "ltr": "As",
+        "name": "Aspirin",
+        "efficient_for" : "F",
+        "state_after": "H",
+        "mixDrugs": {
+          "mixedWithDrugltr": "P",
+          "newStateltr": "X"
+        }
+      },
+      {
+        "ltr": "An",
+        "description": "Antibiotic",
+        "efficient_for" : "T",
+        "state_after": "H",
+        "mixDrugs": {
+          "mixedWithDrugltr": "I",
+          "currentHealthStatusltr": "H",
+          "newStateltr": "F"
+        }
+      },
+      {
+        "ltr": "I",
+        "description": "Insulin",
+        "efficient_for" : "D",
+        "state_after": "D",
+        "mixDrugs": {
+          "mixedWithDrugltr": "AN",
+          "currentHealthStatusltr": "H"
+        }
+      },
+      {
+        "ltr": "P",
+        "description": "Paracetamol",
+        "efficient_for" : "F",
+        "state_after": "H",
+        "mixDrugs": {
+          "mixedWithDrugltr": "AS",
+          "newStateltr": "X"
+        }
+      }
+    ]
+  }
