@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './hospital-lib/src/index.ts',
+    entry: './src/index.ts',
     output: {
         filename: 'index.js',
         library: 'hospitalLib',

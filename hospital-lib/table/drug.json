@@ -12,7 +12,7 @@
       },
       {
         "ltr": "An",
-        "description": "Antibiotic",
+        "name": "Antibiotic",
         "efficient_for" : "T",
         "state_after": "H",
         "mixDrugs": {
@@ -23,7 +23,7 @@
       },
       {
         "ltr": "I",
-        "description": "Insulin",
+        "name": "Insulin",
         "efficient_for" : "D",
         "state_after": "D",
         "mixDrugs": {
@@ -33,7 +33,7 @@
       },
       {
         "ltr": "P",
-        "description": "Paracetamol",
+        "name": "Paracetamol",
         "efficient_for" : "F",
         "state_after": "H",
         "mixDrugs": {

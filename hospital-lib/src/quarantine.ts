@@ -3,7 +3,7 @@ import {healingProcess} from './methods/healing'
 import {formatDrugs, formatPatients} from './methods/formatInput'
 
 export class Quarantine {
-    list_patients: { [key: string]: any}
+    list_patients: ({ [key: string]: any})
     list_drugs: string|string[];
     prescription: { [key: string]: any} = {};
     final_state: { [key: string]: any} = {F: 0, H: 0, D: 0, T: 0, X: 0}

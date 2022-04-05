@@ -6,4 +6,10 @@ export declare class QuarantineTest {
     drugsPrescription(): void;
     noDrugsSetup(): void;
     noTreatment(): void;
+    paracetamolAndAspirin(): void;
+    aspirin(): void;
+    antibiotic(): void;
+    paracetamol(): void;
+    insulin(): void;
+    antibioticPlusInsulin(): void;
 }

@@ -1,8 +1,8 @@
 import { PatientsRegister } from '../src/patientsRegister';
 export declare class Quarantine {
-    list_patients: {
-        [key: string]: number;
-    };
+    list_patients: ({
+        [key: string]: any;
+    });
     list_drugs: string | string[];
     prescription: {
         [key: string]: any;
@@ -13,7 +13,5 @@ export declare class Quarantine {
     constructor(patients: PatientsRegister);
     setDrugs(drugs: string): void;
     wait40Days(): void;
-    report(): {
-        [key: string]: any;
-    };
+    report(): PatientsRegister;
 }
