@@ -1,7 +1,7 @@
 const express = require('express');
 const _ = require('lodash');
 const app = express();
-const port = 7200;
+const port = process.env.PORT || 7200;
 
 const MIN = 0;
 const MAX = 3;
