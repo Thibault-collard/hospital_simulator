@@ -7,8 +7,7 @@
     "node": "14.15.0"
   },
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd hospital-lib && npm i --save && cd ../hospital-fe && npm install --only=dev && npm install && npm run build"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "4.16.4",
