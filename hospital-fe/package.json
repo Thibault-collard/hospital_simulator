@@ -22,7 +22,7 @@
     "faker": "5.5.3",
     "vue": "^3.2.13",
     "vue3-table-lite": "^1.1.8-2",
-    "hospital-lib": "1.0.0"
+    "hospital-lib": "file:./hospital-lib"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
