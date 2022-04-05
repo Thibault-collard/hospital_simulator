@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Thibault-collard/hospital_simulator">
-    <img src="./hospital-fe/public/screenshot_frontend.png" alt="Logo" height="500">
+    <img src="./hospital-fe/public/screenshot_frontend.png" alt="Logo" height="350">
   </a>
 
   <h3 align="center"> Simu Medic</h3>
@@ -11,10 +11,7 @@
     Application test for the position of Fullstack developer at Propulse Lab, a start-up incubator and services company for marketing start-up.
 		<br />
     <br />
-    <a href="#">View Online Demo</a>
-    �
     <a href="https://github.com/Thibault-collard/hospital_simulator/issues">Report a Bug</a>
-    �
     <a href="https://github.com/Thibault-collard/hospital_simulator/pulls">Suggest a modification</a>
   </p>
 </p>
