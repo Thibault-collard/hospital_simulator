@@ -14,6 +14,7 @@
     "@popperjs/core": "^2.11.4",
     "@quintet/vue-quintable": "^2.0.7",
     "@vue/cli": "^5.0.4",
+    "@vue/cli-service": "~5.0.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
     "bootstrap-vue-3": "^0.1.9",
