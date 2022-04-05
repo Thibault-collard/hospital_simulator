@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "cd hospital-fe && npm run build",
-    "postinstall": "npm run build"
+    "heroku-postbuild": "cd hospital-fe && npm install --only=dev && npm install && npm run build"
   },
   "dependencies": {
     "express": "4.16.4",
