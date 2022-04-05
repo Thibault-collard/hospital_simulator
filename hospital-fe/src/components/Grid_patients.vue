@@ -121,12 +121,12 @@ export default defineComponent({
         }
     }
     const loadPatients = () => {
-        axios.get('http://localhost:7200/patients')
+        axios.get('/patients')
         .then(function (response) {
             return quarantine = new Quarantine({list_patients: response.data})
         })
         .then(()=>{
-            axios.get('http://localhost:7200/drugs')
+            axios.get('/drugs')
             .then(function (response) {
                 return quarantine.setDrugs(response.data)
             }).then(function () {
