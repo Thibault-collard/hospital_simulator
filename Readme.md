@@ -60,7 +60,7 @@ To understand this project more deeply, you need have basic fondations in Typesc
 
 1. Clone the repo
 ```sh
-git clone https://github.com/Thibault-collard/herobay.git
+git clone https://github.com/Thibault-collard/hospital_simulator.git
 ```
 2. Instal NPM packages
 ```sh
@@ -76,7 +76,7 @@ To replicate this project, you don't need any type of credentials
 <!-- USAGE EXAMPLES -->
 ## Skills used 
 
-- Create an algorithm to find the state of the patients
+- Create an algorithm to simulate the state of the patients
 - Running set of tests to ensure that app is running well
 - Create front-end to display data of patients
 - Store data into localstorage 
